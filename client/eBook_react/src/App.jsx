@@ -3,7 +3,8 @@ import React from 'react'
 import './App.css'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
-import CameraComponent from './components/authorization/Authorization'
+import Authorization from './components/authorization/Authorization'
+
 
 function App() {
 //   function test(){
@@ -19,7 +20,7 @@ function App() {
       <p className='sms_text'>Привет! Это электронная книга жалоб населения Кыргызстана.
   Отправляйте жалобы путем заявки - это легко!</p>
     </div> */}
-    <CameraComponent/>
+    <Authorization/>
       <Footer/>
     </div>
     </>
